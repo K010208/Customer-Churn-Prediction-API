@@ -29,9 +29,7 @@ Customer-Churn-Prediction-API/
 └── exploratory_analysis.ipynb # Data analysis notebook
 
 yaml
-Copy code
 
----
 
 ## **Setup Instructions**
 
@@ -42,18 +40,15 @@ Copy code
 pip install -r requirements.txt
 Train the model:
 
-bash
-Copy code
+
 python model.py
 Run the Flask API:
 
-bash
-Copy code
+
 python app.py
 Test the API using Postman or Python requests:
 
 python
-Copy code
 import requests
 
 url = "http://127.0.0.1:5000/predict"
